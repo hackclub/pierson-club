@@ -142,7 +142,7 @@ These will behave just like regular components except we made them just for you.
 
 ```html
 <wc-blink>
-  <div>follow me!</div>
+  <div>flash</div>
 </wc-blink>
 
 <wc-blink rate="0.5s">
