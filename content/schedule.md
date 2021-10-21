@@ -1,5 +1,10 @@
 # Approximate Schedule
 
+### Links for Today
+
+- This Site: [hack.af/pierson](https://hackclub.github.io/pierson-oct-21-2021/)
+- Shared Notepad: [hack.af/notes](https://demo.firepad.io/#qKFblubzDm)
+
 ### Workshop Starts at 4:00 PM
 
 - (~ 5 min) Chat and get to know eachother.

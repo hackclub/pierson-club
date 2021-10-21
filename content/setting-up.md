@@ -10,8 +10,9 @@ Here is a minimal HTML set-up.
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
 
-    <!-- imports, this you can ignore too -->
-    <script type="module" src="https://component-host.maxwofford.repl.co/components.js"></script>
+    <!-- imports, this is where the special components we made come in -->
+    <script src="https://hackclub.github.io/pierson-oct-21-2021/exports.js" type="module"></script>
+
 
     <!-- this is the title you see inthe tab -->
     <title>NAME HERE</title>
@@ -59,7 +60,7 @@ You can also start with this website.
       grid-area: menu;
       display: flex;
       flex-direction: column;
-      background: purple;
+      background: #9d559deb;
       height: 100%;
       justify-content: center;
       align-content: stretch;
@@ -79,9 +80,10 @@ You can also start with this website.
     }
 
     .content {
+      color: #020000d1;
       padding: 20px;
       overflow-y: scroll;
-      background: lightcoral;
+      background: #e2e2e375;
     }
 
   </style>
@@ -96,11 +98,11 @@ You can also start with this website.
   <div class="content">
 
     <hash-check route="">
-      <div>home page content</div>
+      <div class="inner-content">home page content</div>
     </hash-check>
 
     <hash-check route="page-0">
-      <div>Page 0 Content</div>
+      <div class="inner-content">Page 0 Content</div>
     </hash-check>
 
   </div>

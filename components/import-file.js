@@ -3,13 +3,13 @@ import marked from './marked.js';
 customElements.define('import-file', class extends HTMLElement {
   constructor() {
     super();
-    this.attachShadow({ mode: 'open' });
+    if (this.hasAttribute("shadowRoot")) this.attachShadow({ mode: 'open' });
   }
 
   connectedCallback() {
     // view
     // this.innerHTML = "";
-    setContent(this.getAttribute("src"), this.shadowRoot);
+    setContent(this.getAttribute("src"), this.hasAttribute("shadowRoot") ? this.shadowRoot : this);
   }
 })
 
