@@ -155,58 +155,26 @@ These will behave just like regular components except we made them just for you.
 
 [Here](https://jgthms.com/web-design-in-4-minutes/) is a great intro to quickly working magic with css from the creator of a popular CSS library (Bulma).
 
-<hr>
+Here are some common CSS properties you'll want to look into:
 
-**border**
-
-<hr>
-
-**border-radius**
-
-<hr>
-
-**box-sizing**
-
-<hr>
-
-**margin**
-
-<hr>
-
-**padding**
-
-<hr>
-
-**background**
-
-<hr>
-
-**color**
-
-<hr>
-
-**font**
-
-<hr>
-
-**grid**
-
-<hr>
-
-**flexbox**
-
-<hr>
-
-**fixed positioning**
-
-<hr>
-
-**menus**
-
+- border
+- border-radius
+- box-sizing
+- margin
+- padding
+- background
+- color
+- font
+- grid
+- flexbox
+- position
+- transform
 
 ## The Browser Console
 
 - inspect element
+- change styles
+- view dom
 
 
 
