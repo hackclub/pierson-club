@@ -1,2 +1,1 @@
-# pierson-oct-21-2021
- 
+a simple site for our October 21, 2021 meeting at Pierson Library

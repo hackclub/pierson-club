@@ -1,0 +1,36 @@
+# A Rough Schedule for Today
+
+Workshop Starts at 4:00 PM
+
+## Approximate Schedule
+
+- (~ 5 min) Chat and get to know eachother.
+
+- (~ 5 min) Introduction to Hack Club from Tevan and the team.
+
+- (~ 3 min) Introduction to the workshop. Today we are making personal websites, the real question is what is the website for?
+
+<div style="padding-right: 20%; padding-left: 20%;">
+What is something you want to share with everyone?
+
+- What would you write a blog about?
+
+What is something you want to remember?
+
+- Leo keeps his projects linked on his site so he can find them in the future.
+
+</div>
+
+- (~ 50 min) Hackin'!!! Leaders will wander about.
+
+- (~ 20 min) Sharin'!!! Share what you made.
+
+## Reference Material
+
+- "multi"-page sites
+- a side bar
+- flexbox
+- grid
+- fixed/absolute positioning
+
+

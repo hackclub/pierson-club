@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>simple-site</title>
+  <!-- <link rel="stylesheet" href="styles.css" /> -->
+  <script src="./components/hash-check.js" type="module"></script>
+  <script src="./components/import-file.js" type="module"></script>
+  <style>
+    body {
+      margin: 0px;
+    }
+
+    .main {
+      display: grid;
+      height: 100vh;
+      width: 100vw;
+      grid-template: 
+        "menu content" 100%
+        / 150px 1fr;
+    }
+
+    .menu {
+      grid-area: menu;
+      display: flex;
+      flex-direction: column;
+      background: purple;
+      height: 100%;
+      justify-content: center;
+      align-content: stretch;
+      align-items: center;
+    }
+
+    .link {
+      color: white;
+      padding: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .link:hover {
+      opacity: .8;
+      text-decoration: underline;
+    }
+
+    .content {
+      padding: 20px;
+      overflow-y: scroll;
+      /*box-sizing: border-box;*/
+      background: lightcoral;
+    }
+
+    .inner-content {
+
+      background: cyan;
+    }
+
+    .pin {
+      position: fixed;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: max-content;
+      height: 50px;
+      background: red;
+      border-radius: 5px;
+      border: 2px solid black;
+      padding: 10px;
+    }
+
+    .center {
+      display: grid;
+      place-content: center;
+    }
+
+  </style>
+</head>
+<body>
+<div class="main">
+  <div class="menu">
+    <a class="link" href="./">Schedule</a>
+    <a class="link" href="./#/styles">Styling</a>
+    <a class="link" href="./#/positioning">Positioning</a>
+    <a class="link" href="./#/drop-in-css">drop-in-css</a>
+  </div>
+
+  <div class="content">
+    <hash-check route="">
+      <import-file src="./content/schedule.md"></import-file>
+    </hash-check>
+
+    <hash-check route="imports">
+      <import-file src="./content/html-import.html"></import-file>
+    </hash-check>
+
+    <hash-check route="styles">
+      <div class="inner-content">
+        <div>Look how it styles.</div>
+      </div>
+    </hash-check>
+
+    <hash-check route="positioning">
+      <div class="pin center">Why did you go here?</div>
+      <div>Notice the use of flexbox for menu and grid for the whole page.</div>
+    </hash-check>
+
+    <hash-check route="drop-in-css">
+      Try water css to spruce things up.
+    </hash-check>
+
+  </div>
+</div>
+</body>
+</html>
