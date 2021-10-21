@@ -7,7 +7,7 @@
 
 ### Workshop Starts at 4:00 PM
 
-- (~ 5 min) Chat and get to know eachother.
+- (~ 5 min) Chat and get to know each other.
 
 - (~ 5 min) Introduction to Hack Club from Tevan and the team.
 
