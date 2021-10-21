@@ -1,8 +1,6 @@
-# A Rough Schedule for Today
+# Approximate Schedule
 
-Workshop Starts at 4:00 PM
-
-## Approximate Schedule
+### Workshop Starts at 4:00 PM
 
 - (~ 5 min) Chat and get to know eachother.
 
@@ -16,8 +14,6 @@ What is something you want to share with everyone?
 What would you write a blog about?
 
 What is something you want to remember?
-
-- Leo keeps [his projects](https://leomcelroy.com/#/projects) linked on his site so he can find them in the future.
 
 </div>
 
