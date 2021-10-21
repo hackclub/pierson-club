@@ -85,11 +85,6 @@ You can also start with this website.
       overflow-y: scroll;
       background: #e2e2e375;
     }
-
-    pre {
-      background: #ede6e6;
-    }
-
   </style>
 </head>
 <body>
