@@ -23,7 +23,7 @@ What is something you want to remember?
 
 </div>
 
-- (~ 10) Getting set-up. Think about what you would add to a website. Create a [Replit](https://replit.com/~) account. Instructions in the [Hack Club Personal Website Workshop](https://workshops.hackclub.com/personal_website/).
+- (~ 10) Getting set-up. Think about what you would add to a website. Create a [Replit](https://replit.com/~) account.
 
 - (~ 50 min) Hackin'!!! Leaders will wander about.
 
