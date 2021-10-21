@@ -24,15 +24,18 @@ Here is a minimal HTML set-up.
 
   </head>
 
+  <!-- content goes inside of body -->
   <body>
-
+    Hello world!
   </body>
 </html>
 ```
 
-Take not of these different sections but it's okay to copy the scaffold to get started.
+Take note of these different sections but it's okay to copy the scaffold to get started.
 
-You can also start with this website.
+<hr>
+
+If you want a more complicated page can also start with the website you're on!
 
 ```html
 <!DOCTYPE html>
