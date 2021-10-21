@@ -11,7 +11,7 @@
 
 - (~ 5 min) Introduction to Hack Club from Tevan and the team.
 
-- (~ 3 min) Introduction to the workshop. Today we are making personal websites, the real question is what is the website for?
+- (~ 5 min) Introduction to the workshop. Today we are making personal websites, the real question is what is the website for?
 
 <div style="padding-right: 15%; padding-left: 15%;">
 What is something you want to share with everyone?
@@ -22,6 +22,8 @@ What is something you want to remember?
 
 </div>
 
+- (~ 10) Getting set-up. Create a ReplIt account.
+
 - (~ 50 min) Hackin'!!! Leaders will wander about.
 
 <div style="padding-right: 15%; padding-left: 15%;">
@@ -29,5 +31,5 @@ What is something you want to remember?
 	<a href="https://workshops.hackclub.com/personal_website/">personal website workshop write-up</a>.
 </div>
 
-- (~ 20 min) Sharin'!!! Share what you made.
+- (~ 15 min) Sharin'!!! Share what you made.
 
