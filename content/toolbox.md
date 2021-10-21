@@ -185,7 +185,7 @@ Here are some common CSS properties you'll want to look into:
 - position
 - transform
 
-## The Browser Console
+## Dev Tools
 
 - inspect element
 - change styles
