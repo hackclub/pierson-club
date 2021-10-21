@@ -80,34 +80,19 @@
 <div class="main">
   <div class="menu">
     <a class="link" href="./">Schedule</a>
-    <a class="link" href="./#/styles">Styling</a>
     <a class="link" href="./#/positioning">Positioning</a>
-    <a class="link" href="./#/drop-in-css">drop-in-css</a>
   </div>
 
   <div class="content">
+
     <hash-check route="">
       <import-file src="./content/schedule.md"></import-file>
     </hash-check>
 
-    <hash-check route="imports">
-      <import-file src="./content/html-import.html"></import-file>
-    </hash-check>
-
-    <hash-check route="styles">
-      <div class="inner-content">
-        <div>Look how it styles.</div>
-      </div>
-    </hash-check>
-
     <hash-check route="positioning">
       <div class="pin center">Why did you go here?</div>
-      <div>Notice the use of flexbox for menu and grid for the whole page.</div>
     </hash-check>
 
-    <hash-check route="drop-in-css">
-      Try water css to spruce things up.
-    </hash-check>
 
   </div>
 </div>
