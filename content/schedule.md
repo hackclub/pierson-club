@@ -30,12 +30,3 @@ What is something you want to remember?
 
 - (~ 20 min) Sharin'!!! Share what you made.
 
-## Reference Material
-
-- "multi"-page sites
-- a side bar
-- flexbox
-- grid
-- fixed/absolute positioning
-
-

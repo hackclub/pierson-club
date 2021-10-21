@@ -8,6 +8,7 @@ customElements.define('import-file', class extends HTMLElement {
 
   connectedCallback() {
     // view
+    // this.innerHTML = "";
     setContent(this.getAttribute("src"), this.shadowRoot);
   }
 })

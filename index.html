@@ -4,9 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>simple-site</title>
-  <!-- <link rel="stylesheet" href="styles.css" /> -->
-  <script src="./components/hash-check.js" type="module"></script>
-  <script src="./components/import-file.js" type="module"></script>
+  <script src="./exports.js" type="module"></script>
   <style>
     body {
       margin: 0px;
@@ -80,6 +78,8 @@
 <div class="main">
   <div class="menu">
     <a class="link" href="./">Schedule</a>
+    <a class="link" href="./#/setting-up">Setting Up</a>
+    <a class="link" href="./#/toolbox">Toolbox</a>
     <a class="link" href="./#/positioning">Positioning</a>
   </div>
 
@@ -87,6 +87,14 @@
 
     <hash-check route="">
       <import-file src="./content/schedule.md"></import-file>
+    </hash-check>
+
+    <hash-check route="setting-up">
+      <import-file src="./content/setting-up.md"></import-file>
+    </hash-check>
+
+    <hash-check route="toolbox">
+      <import-file src="./content/toolbox.md"></import-file>
     </hash-check>
 
     <hash-check route="positioning">
