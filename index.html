@@ -45,31 +45,7 @@
     .content {
       padding: 20px;
       overflow-y: scroll;
-      /*box-sizing: border-box;*/
       background: lightcoral;
-    }
-
-    .inner-content {
-
-      background: cyan;
-    }
-
-    .pin {
-      position: fixed;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      width: max-content;
-      height: 50px;
-      background: red;
-      border-radius: 5px;
-      border: 2px solid black;
-      padding: 10px;
-    }
-
-    .center {
-      display: grid;
-      place-content: center;
     }
 
   </style>
@@ -80,7 +56,6 @@
     <a class="link" href="./">Schedule</a>
     <a class="link" href="./#/setting-up">Setting Up</a>
     <a class="link" href="./#/toolbox">Toolbox</a>
-    <a class="link" href="./#/positioning">Positioning</a>
   </div>
 
   <div class="content">
@@ -96,11 +71,6 @@
     <hash-check route="toolbox">
       <import-file src="./content/toolbox.md"></import-file>
     </hash-check>
-
-    <hash-check route="positioning">
-      <div class="pin center">Why did you go here?</div>
-    </hash-check>
-
 
   </div>
 </div>
