@@ -80,6 +80,21 @@ What are some tags at our disposal?
 
 <hr>
 
+**img** add images to your site, to get image src go to google images and right click then hit "Copy Image Address"
+
+**code:** 
+
+```html
+<img src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/308404421/1800" alt="tern" height="200">
+```
+
+**result:** 
+
+<img src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/308404421/1800" alt="tern" height="200">
+
+<hr>
+
+
 ### Custom Components
 
 These will behave just like regular components except we made them just for you.
