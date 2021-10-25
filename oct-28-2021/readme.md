@@ -1,4 +1,6 @@
-Workshop this week run of show 
+# Oct 28th (3rd club meeting)
+
+## Run of show 
 
 Before the meeting:
 
@@ -18,10 +20,8 @@ Before the meeting:
 - Set a 60 minute timer after intro talk is over. 
 - say: at the end of this 60-minute timer you’ll be showing off your junkyard creations 
 
-
 10-15 minutes before end of timer:
 - Prime people for demoing by checking in 1-1, social and friendly 
-
 
 After 60 minutes is over: 
 - Demo time begins 
