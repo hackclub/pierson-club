@@ -12,9 +12,6 @@ customElements.define('follow-mouse', class extends HTMLElement {
       <style>
         .container {
           position: fixed;
-        }
-
-        .container {
           transform: translate(-50%, -50%);
         }
       </style>
