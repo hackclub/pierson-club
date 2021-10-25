@@ -1,7 +1,7 @@
 customElements.define('click-through', class extends HTMLElement {
   constructor() {
     super();
-    // this.attachShadow({ mode: 'open' });
+    this.attachShadow({ mode: 'open' });
 
     // state
     this.index = 1;
@@ -10,7 +10,7 @@ customElements.define('click-through', class extends HTMLElement {
 
   connectedCallback() {
     // view
-    this.innerHTML = `
+    this.shadowRoot.innerHTML = `
       <style>
         .hide {
           display: none;
