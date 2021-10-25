@@ -1,14 +1,14 @@
 customElements.define('follow-mouse', class extends HTMLElement {
   constructor() {
     super();
-    this.attachShadow({ mode: 'open' });
+    // this.attachShadow({ mode: 'open' });
     this.x = !this.hasAttribute("x");
     this.y = !this.hasAttribute("y");
   }
 
   connectedCallback() {
 
-    this.shadowRoot.innerHTML = `
+    this.innerHTML = `
       <style>
         .container {
           position: fixed;
@@ -21,7 +21,7 @@ customElements.define('follow-mouse', class extends HTMLElement {
     `
 
     document.body.addEventListener('mousemove', e => {
-      const container = this.shadowRoot.querySelector(".container");
+      const container = this.querySelector(".container");
       if (this.x) container.style.top = `${e.clientY}px`;
       if (this.y) container.style.left = `${e.clientX}px`;
     })
