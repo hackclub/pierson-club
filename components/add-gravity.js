@@ -47,11 +47,12 @@ customElements.define('add-gravity', class extends HTMLElement {
       g = parseFloat(g);
       const dDelta = 0.5 * g * step**2
 
-      target.style.top = `${parseFloat(cTop) + dDelta}px`;
-
-
       const h = document.body.clientHeight;
-      const hitBottom = parseFloat(target.style.top) >= (h * .9);
+      const nextY = Math.min(parseFloat(cTop) + dDelta, h*.95);
+      target.style.top = `${nextY}px`;
+
+
+      const hitBottom = nextY >= (h * .95);
       if (!hitBottom) { // Stop the animation after 2 seconds
         window.requestAnimationFrame(() => takeStep(step + 1));
       }
