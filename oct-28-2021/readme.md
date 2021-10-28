@@ -28,3 +28,13 @@ After 60 minutes is over:
 - Leader stands up and reclaims the space, tells people to close laptops
 - Give an example demo: model it, make it funny and pitchy 
 - give an example of sharing the link, then pass it off to the first volunteer. Load the link rather than 
+
+
+## Drawing Board
+- maybe we should focus on prompt
+- sell fake products
+	- fake product generator
+	- e.g.
+		- foldable stilts
+		- orea flavored mayonaise
+		
